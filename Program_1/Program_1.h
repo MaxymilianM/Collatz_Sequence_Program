@@ -6,5 +6,4 @@ public:
     CollatzSequenceHandler(unsigned long long input);
 
     unsigned long long generate_sequence() override;
-    // void print_sequence();
 };
