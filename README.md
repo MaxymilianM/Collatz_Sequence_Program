@@ -73,9 +73,11 @@ You can generate the `Makefile` based on the definition above using the followin
 cmake .
 ```
 
-Or create a `build` directory to store the generated files by CMake:
+Or create a `build` directory to store the generated files by CMake.
+Notes: instruction is for the Program_1, but for the Program_2 steps almost the same.
 
 ```
+cd Program_1
 mkdir build
 cd build/
 cmake ..
